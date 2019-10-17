@@ -205,7 +205,7 @@ namespace Comindware.Solution.Git.Service
             return commits;
         }
 
-        public List<string> Merge(GitConfiguration gitConfiguration, GitCommitter gitCredentials, string targetBranchName, string userId)
+        public List<string> Merge(GitConfiguration gitConfiguration, GitCommitter gitCredentials, string targetBranchName, string userId, CheckoutFileConflictStrategy strategy = CheckoutFileConflictStrategy.Merge)
         {
             var path = this.GetLocalRepository(gitConfiguration, userId);
             using (var repo = new Repository(path))
@@ -215,7 +215,7 @@ namespace Comindware.Solution.Git.Service
                 {
                     throw new Exception("Branch is busy");
                 }
-                var opts = new MergeOptions { FileConflictStrategy = CheckoutFileConflictStrategy.Merge };
+                var opts = new MergeOptions { FileConflictStrategy = strategy };
 
                 repo.Merge(branch, new Signature(gitCredentials.UserName, gitCredentials.Email, DateTime.Now), opts);
 

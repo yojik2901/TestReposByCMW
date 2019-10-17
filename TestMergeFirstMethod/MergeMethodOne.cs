@@ -13,6 +13,7 @@ namespace TestMergeFirstMethod
         private const string userId = "account.1";
         private static GitService _gitService = new GitService();
         private static string tempBranch;
+
         public static bool FirstPart(string repos, string URL, string sourceSolution, string targetSolution, GitCommitter gitCommitter, string sourceBranch, string targetBranch, string commitMessage)
         {
             tempBranch = $"tempBranch{new Random().Next(0, 200000000)}";
@@ -71,20 +72,6 @@ namespace TestMergeFirstMethod
                 var pushRefSpec = $"+:refs/heads/{tempBranch}";
                 repository.Network.Push(remote, pushRefSpec,options);
             }
-        }
-
-        public static void ReadMetadata(GitConfiguration gitConfiguration, GitCommitter gitCommitter)
-        {
-            var userCredentials = gitCommitter;
-            var userId = "account.1";
-
-            var repository = _gitService.GetLocalRepository(gitConfiguration, userId);
-
-            _gitService.Clone(gitConfiguration, userCredentials, userId, true);
-
-            var ctfManager = new CtfManager();
-            var ctf = ctfManager.ToCtf(repository);
-           // return ctf;
         }
     }
 }
