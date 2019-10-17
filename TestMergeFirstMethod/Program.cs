@@ -1,5 +1,5 @@
-﻿using System;
-using Comindware.Solution.Git.ViewModel;
+﻿using Solution.Git.ViewModel;
+using System;
 
 namespace TestMergeFirstMethod
 {

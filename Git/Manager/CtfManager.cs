@@ -3,7 +3,7 @@ using System.Text;
 using Ionic.Zip;
 using Ionic.Zlib;
 
-namespace Comindware.Solution.Git.Manager
+namespace Solution.Git.Manager
 {
     public class CtfManager
     {

@@ -7,7 +7,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{265771D5-9742-4C14-95DE-ED0F46524255}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Comindware.Solution.Git</RootNamespace>
+    <RootNamespace>Solution.Git</RootNamespace>
     <AssemblyName>Solution.Git</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

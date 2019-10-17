@@ -3,11 +3,11 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 
-using Comindware.Solution.Git.ViewModel;
 using LibGit2Sharp;
 using LibGit2Sharp.Handlers;
+using Solution.Git.ViewModel;
 
-namespace Comindware.Solution.Git.Service
+namespace Solution.Git.Service
 {
     public class GitService
     {

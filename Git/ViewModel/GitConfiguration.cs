@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Comindware.Solution.Git.ViewModel
+namespace Solution.Git.ViewModel
 {
     public class Configuration
     {

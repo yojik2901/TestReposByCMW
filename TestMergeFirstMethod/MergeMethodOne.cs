@@ -1,10 +1,8 @@
-﻿using Comindware.Solution.Git.Service;
-using System;
+﻿using System;
 using System.IO;
-using Comindware.Solution.Git.Manager;
-using Comindware.Solution.Git.ViewModel;
 using LibGit2Sharp;
-using LibGit2Sharp.Handlers;
+using Solution.Git.Service;
+using Solution.Git.ViewModel;
 
 namespace TestMergeFirstMethod
 {

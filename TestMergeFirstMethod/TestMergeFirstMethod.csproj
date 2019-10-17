@@ -61,9 +61,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Git\Comindware.Solution.Git.csproj">
+    <ProjectReference Include="..\Git\Solution.Git.csproj">
       <Project>{265771D5-9742-4C14-95DE-ED0F46524255}</Project>
-      <Name>Comindware.Solution.Git</Name>
+      <Name>Solution.Git</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
