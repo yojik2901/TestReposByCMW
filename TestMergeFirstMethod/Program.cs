@@ -74,7 +74,7 @@ namespace TestMergeFirstMethod
             }
             else
             {
-                Console.WriteLine("Нажмите кномпку как решите конфликты");
+                Console.WriteLine("Нажмите кнопку как решите конфликты");
                 Console.ReadLine();
                 Console.ReadLine();
                 MergeMethodTwo.SecondPart(repos, gitCommitter, targetBranch, sourceBranch, commitMessage, URL);

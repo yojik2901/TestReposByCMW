@@ -17,12 +17,12 @@ namespace TestMergeFirstMethod
             tempBranch = $"tempBranch{new Random().Next(0, 200000000)}";
             _gitService.AddRemoteBranch(new GitConfiguration()
             {
-                Branch = targetBranch,
+                Branch = sourceBranch,
                 Message = commitMessage,
                 Repository = repos,
                 Solution = sourceSolution,
                 URL = URL
-            }, gitCommitter, targetBranch, tempBranch, commitMessage, userId);
+            }, gitCommitter, sourceBranch, tempBranch, commitMessage, userId);
             _gitService.Clone(new GitConfiguration()
             {
                 Branch = tempBranch,
@@ -44,11 +44,11 @@ namespace TestMergeFirstMethod
 
             var mergeResult = _gitService.Merge(new GitConfiguration
             {
-                Branch = targetBranch,
+                Branch = tempBranch,
                 Message = commitMessage,
                 Repository = repos,
                 URL = URL
-            }, gitCommitter, tempBranch, userId);
+            }, gitCommitter, targetBranch, userId);
 
             if (mergeResult != null)
             {
