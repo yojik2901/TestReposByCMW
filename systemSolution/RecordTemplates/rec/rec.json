@@ -1,0 +1,12 @@
+{
+  "$type": "Comindware.Platform.Contracts.TemplateInfoModel, Comindware.Platform.Contracts",
+  "Name": "rec",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RecordTemplate",
+    "Alias": "rec"
+  },
+  "IsDisabled": false,
+  "IsReferenceData": false,
+  "IsTransferable": false
+}

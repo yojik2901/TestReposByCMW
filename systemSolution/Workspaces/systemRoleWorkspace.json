@@ -1,0 +1,216 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RoleWorkspace",
+    "Alias": "systemRoleWorkspace"
+  },
+  "Name": "System workspace",
+  "IsDefault": true,
+  "Description": "System workspace",
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "My Tasks",
+        "Priority": 2,
+        "ItemType": "MyTasks",
+        "IconClass": "tasks",
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Configurations",
+        "Priority": 1,
+        "ItemType": "Group",
+        "IconClass": "cogs",
+        "Severity": "None",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Diagrams",
+              "Priority": 26,
+              "ItemType": "DiagramList",
+              "IconClass": "project-diagram",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Templates",
+              "Priority": 25,
+              "ItemType": "Templates",
+              "IconClass": "briefcase",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Priority": 24,
+              "ItemType": "Solutions",
+              "IconClass": "cubes",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Priority": 23,
+              "ItemType": "Splitter",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Documents",
+              "Priority": 21,
+              "ItemType": "Documents",
+              "IconClass": "folder-open",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Priority": 19,
+              "ItemType": "Splitter",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Users",
+              "Priority": 18,
+              "ItemType": "People",
+              "IconClass": "address-card",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Groups",
+              "Priority": 17,
+              "ItemType": "UserGroups",
+              "IconClass": "users",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Priority": 16,
+              "ItemType": "Splitter",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Roles",
+              "Priority": 15,
+              "ItemType": "Roles",
+              "IconClass": "user-shield",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "System role",
+              "Priority": 14,
+              "ItemType": "GlobalSecurity",
+              "IconClass": "shield",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Priority": 13,
+              "ItemType": "Splitter",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Reusable functions",
+              "Priority": 12,
+              "ItemType": "GlobalFunctions",
+              "IconClass": "robot",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Communication routes",
+              "Priority": 11,
+              "ItemType": "CommunicationRoutes",
+              "IconClass": "route",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Communication channels",
+              "Priority": 10,
+              "ItemType": "CommunicationChannels",
+              "IconClass": "exchange-alt",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Message types",
+              "Priority": 9,
+              "ItemType": "MessageTypes",
+              "IconClass": "envelope-square",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Business apps",
+              "Priority": 7,
+              "ItemType": "Splitter",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Backups",
+              "Priority": 6,
+              "ItemType": "Backups",
+              "IconClass": "coins",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Theme",
+              "Priority": 5,
+              "ItemType": "Themes",
+              "IconClass": "palette",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Work areas",
+              "Priority": 4,
+              "ItemType": "RoleWorkspace",
+              "IconClass": "stream",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Performance",
+              "Priority": 3,
+              "ItemType": "Performance",
+              "IconClass": "tachometer",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Active Directory",
+              "Priority": 2,
+              "ItemType": "ActiveDirectory",
+              "IconClass": "sitemap",
+              "Severity": "None"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Name": "Settings",
+              "Priority": 1,
+              "ItemType": "Settings",
+              "IconClass": "cog",
+              "Severity": "None"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

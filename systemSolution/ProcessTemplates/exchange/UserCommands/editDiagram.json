@@ -1,0 +1,25 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "UserCommand",
+    "Owner": "exchange",
+    "Alias": "editDiagram"
+  },
+  "Name": "Начать редактирование",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "Diagram",
+  "Multiplicity": "OneByOne",
+  "Kind": "EditDiagram",
+  "ResultType": "Navigate",
+  "ConditionRule": "@prefix diagram: <http://comindware.com/ontology/process/diagram#>.\n{\n?item diagram:isPublishedRevision ?value.\n}",
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "LockStateChangeType": "Undefined",
+  "LockStateVisibilityType": "Undefined"
+}

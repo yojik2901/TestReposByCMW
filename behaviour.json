@@ -1,0 +1,5 @@
+{
+  "$type": "System.Collections.Generic.Dictionary`2[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts],[Comindware.Platform.Contracts.BehaviourStateType, Comindware.Platform.Contracts]], mscorlib",
+  "SchemeActivity@diagram.1.noneEndEvent1": "Active",
+  "SchemeActivity@diagram.1.noneStartEvent1": "Active"
+}
